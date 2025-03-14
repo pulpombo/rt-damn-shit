@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosario Tecno - Página oficial</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Logo -->
+
+    <link id="favicon" rel="icon" type="image/png" href="Imágenes/LogoPag_DarkM.png">
+
+    <!-- Tipografías -->
+
+    <style class="Tipografías">
+
+        @font-face {
+            font-family: "SF Pro";
+            src: url("/assets/fonts/SF-Pro-Display-Regular.woff2") format("woff2"),
+                url("/assets/fonts/SF-Pro-Display-Regular.woff") format("woff");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "SF Pro";
+            src: url("/assets/fonts/SF-Pro-Display-Bold.woff2") format("woff2"),
+                url("/assets/fonts/SF-Pro-Display-Bold.woff") format("woff");
+            font-weight: bold;
+            font-style: normal;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    
+    <header class="header">
+
+        <div class="Logo-cabezal">
+                
+            <a href="" target="_self"><img id="imglc" class="imagen" src="Imágenes/LogoCab_LightMwoC.png" alt="Logotipo de Rosario Tecno, clic para conocer más sobre nosotros."></a>
+            <a href="" target="_self"><img id="imgld" class="imagen" src="Imágenes/LogoCab_DarkMwoC.png" alt="Logotipo de Rosario Tecno, clic para conocer más sobre nosotros."></a>
+
+        </div>
+
+        <!-- Opciones del menú -->
+
+        <nav> <ul class="Opciones-menú">
+
+                <li><a href="" target="_self">Inicio/Home</a></li>
+                <li><a href="" target="_self">Servicio técnico</a></li>
+                <li><a href="" target="_self">Productos</a></li>
+                <li><a href="" target="_self">Preguntas frecuentes</a></li>
+                <li><a href="" target="_self">Contacto</a></li>
+
+        </ul> </nav>
+
+        <div class="Recursos">
+
+            <img id="imgbuscar" src="Imágenes/Lupa_DarkMwoC.png" alt="Buscador" class="menú-buscar">
+            <img id="imgcarrito" src="Imágenes/Carrito_DarkMwoC.png" alt="Carrito" class="menú-carrito">
+            <img id="imgcuenta" src="Imágenes/Perfil_DarkMwoC.png" alt="Cuenta" class="menú-cuenta">
+
+        </div>
+
+        <!-- Responsive -->
+
+        <button><img src="Imágenes/BotónMenúMOscuro.png" alt="Menú desplegable" class="menú" onclick="AbrirMenú()" id="imgmenú" class="imagen"></button>
+
+        <div class="overlay" id="menú-celular">
+
+            <a onclick="CerrarMenú()" href="" class="close">&times;</a>
+
+            <div class="Contenido-Menú">
+
+                <a href="" target="_self">Sobre nosotros...</a>
+                <a href="" target="_self">Inicio/Home</a>
+                <a href="" target="_self">Servicio técnico</a>
+                <a href="" target="_self">Productos</a>
+                <a href="" target="_self">Preguntas frecuentes</a>
+                <a href="" target="_self">Contacto</a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <script type="text/javascript" src="code.js"></script>
+
+</body>
+
+</html>
